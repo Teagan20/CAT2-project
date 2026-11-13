@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 include 'header.php';
 ?>
 <div class="card">
-  <h1>Log in</h1>
+  <h1>Log in to CAT2</h1>
   <p class="sub">Use the account you registered.</p>
   <?php if ($error): ?><div class="msg err"><?= e($error) ?></div><?php endif; ?>
   <form method="POST">
